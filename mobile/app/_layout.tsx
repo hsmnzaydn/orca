@@ -143,7 +143,8 @@ export default function RootLayout() {
             headerTintColor: colors.textPrimary,
             headerTitleStyle: { fontSize: 16, fontWeight: '600' },
             contentStyle: { backgroundColor: colors.bgBase },
-            headerShadowVisible: false
+            headerShadowVisible: false,
+            orientation: 'all'
           }}
         >
           <Stack.Screen
